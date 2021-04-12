@@ -1,3 +1,3 @@
-#Design Patterns-Shorthand(Bengali)
+# Design Patterns-Shorthand(Bengali)
 
-##SOLID:
+## SOLID:
