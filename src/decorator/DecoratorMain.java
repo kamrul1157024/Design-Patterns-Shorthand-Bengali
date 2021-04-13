@@ -13,7 +13,6 @@ public class DecoratorMain {
         Beverage coffeeA= new Milk(new Soy(new Expresso()));
         Beverage coffeeB= new Soy(new Whip(new Milk(new HouseBlend())));
 
-
         System.out.println(coffeeA.getCost());
         System.out.println(coffeeA.getDescription());
 
