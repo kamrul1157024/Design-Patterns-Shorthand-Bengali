@@ -1,6 +1,5 @@
 package templateMethodPattern;
 
-import java.io.File;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +32,5 @@ public abstract class DocumentAnalyzer {
         counts.keySet().forEach(key->System.out.println(key + "->"+counts.get(key)));
         afterAll();
     }
-
 
 }
