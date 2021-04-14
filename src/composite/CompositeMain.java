@@ -9,5 +9,8 @@ public class CompositeMain {
                 );
         Component component=new PostComponent(post);
         System.out.println(component.render());
+        post.likes=15;
+        component.refresh();
+        System.out.println(component.render());
     }
 }
