@@ -8,6 +8,6 @@ public class CompositeMain {
                 12
                 );
         Component component=new PostComponent(post);
-        component.render();
+        System.out.println(component.render());
     }
 }

@@ -19,9 +19,9 @@ public class Body implements Component{
 
     @Override
     public String render() {
-        return "<div>" +
-                title.render()+
-                text.render()+
-                "</div>";
+        return "<div>\n" +
+                title.render()+"\n"+
+                text.render()+"\n"+
+                "</div>\n";
     }
 }

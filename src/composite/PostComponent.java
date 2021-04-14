@@ -19,9 +19,9 @@ public class PostComponent implements Component{
 
     @Override
     public String render() {
-        return "<div>" +
-                body.render()+
-                like.render()+
-                "</div>";
+        return "<div>\n" +
+                body.render()+"\n"+
+                like.render()+"\n"+
+                "</div>\n";
     }
 }

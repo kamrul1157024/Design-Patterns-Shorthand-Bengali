@@ -17,6 +17,6 @@ public class Like implements Component{
 
     @Override
     public String render() {
-        return "<p>"+this.likes+"</p>";
+        return "<p> Likes: "+this.likes+"</p>";
     }
 }
