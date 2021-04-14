@@ -1,7 +1,6 @@
 package bridge.resource;
 
 import bridge.models.Book;
-
 public class BookResource implements IResource{
 
     private final Book book;
