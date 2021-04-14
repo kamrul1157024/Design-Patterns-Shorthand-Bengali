@@ -1,5 +1,7 @@
 package bridge.view;
 
-public interface IView {
+import bridge.resource.IResource;
+
+public interface IView extends IResource {
     String showHTML();
 }
