@@ -1,4 +1,4 @@
-##Proxy
+## Proxy
 যদি কোন ক্লাস আগে থেকে লিখা থাকে বা অবজেক্ট ক্রিয়েশন এর সময় হেভি কম্পিটেশন বা
 I/O(Network Call / Database / File-r/w ) করে তখন যদি কোন কারনে
 বা Open-Close principal এর জন্য ক্লাসকে মোডিফিকেশন না করা যায় তাহলে
@@ -12,7 +12,7 @@ I/O(Network Call / Database / File-r/w ) করে তখন যদি কোন
 
 এক্সাম্পল হিসেবে ধরা যাক একটা ক্লাস আছে যেটা নেটওয়ার্ক থেকে বই ফেচ করে, তারপর বইটার 
 ডিটেইলস ইনফোরমেশন দিয়ে দেয় ।
-
+<img src="diagram.png"/>
 ```java
 public interface IBookParser {
     String getDescriptionInJSON();
