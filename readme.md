@@ -1,3 +1,14 @@
 # Design Patterns-Shorthand(Bengali)
 
-## SOLID:
+- [Abstract Factory](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/abstractFactory)
+- [Adapter](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/Adapter)
+- [Bridge](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/bridge) 
+- [Command](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/command)
+- [Composite](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/composite)
+- [Decorator](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/decorator)
+- [Facade](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/facade)
+- [Factory Method](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/factoryMethod)
+- [Observer](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/observer)
+- [Proxy](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/proxy)
+- [Strategy](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/strategy)
+- [Template Method](https://github.com/kamrul1157024/Design-Patterns/tree/master/src/templateMethodPattern)
