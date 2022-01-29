@@ -16,9 +16,7 @@ public class DecoratorMain {
         System.out.println(coffeeA.getCost());
         System.out.println(coffeeA.getDescription());
 
-
         System.out.println(coffeeB.getCost());
         System.out.println(coffeeB.getDescription());
-
     }
 }
