@@ -182,14 +182,14 @@ const ChatComponent = ({ onMessage, onMessageDelete })=>{
     const handleMessageAdd = useCallback((newMessage) => {
         setMessages([newMessage, ...messages]);
         onMessage(newMessage);
-    });
+    },[messages]);
 
     const handleMessageDelete = useCallback((deletedMessage) => {
         setMessages([
             ...messages.filter(message=> message._id !== deletedMessage._id)
         ]);
         onMessageDelete(deletedMessage)
-    });
+    },[messages, onMessageDelete]);
     
     return (
         <>
