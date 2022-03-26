@@ -1,3 +1,3 @@
-<pre>Abstract Factory pattern is a super-factory which creates other factories.
-This factory is also called as Factory of factories
+<pre>এ্যাবস্ট্রারক ফ্যাক্টরি প্যাটার্ন একটি সুপার-ফ্যাক্টরি যা অন্যান্য ফ্যাক্টরি তৈরি করে।
+এই ফ্যাক্টরিকে ফ্যাক্টরির ফ্যাক্টরিও বলা হয় । মানে একটি ফ্যাক্টরি আরেকটি ফ্যাক্টরির সুপার ফ্যাক্টরি।
 </pre>
